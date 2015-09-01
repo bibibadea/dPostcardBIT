@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "vintage-postcard-paris-eiffel-tower-over-blue-sky-antique-french-45757598.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "vintage-postcard-paris-eiffel-tower-over-blue-sky-antique-french-45757599.jpg",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "vintage-postcard-paris-eiffel-tower-over-blue-sky-antique-french-45757600.jpg",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

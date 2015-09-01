@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8173.3" systemVersion="15A244d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vfU-VH-hyP">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+    </dependencies>
+    <scenes>
+        <!--Catalunya-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mail" translatesAutoresizingMaskIntoConstraints="NO" id="40F-5g-I6d">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="40F-5g-I6d" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ISk-VI-xx0"/>
+                            <constraint firstItem="40F-5g-I6d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kw1-FT-sg6"/>
+                            <constraint firstItem="40F-5g-I6d" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="ZhJ-O0-e7G"/>
+                            <constraint firstItem="40F-5g-I6d" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="aU8-Dc-gpG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Catalunya" id="E19-C9-cHr">
+                        <barButtonItem key="rightBarButtonItem" title="View Message" id="teb-Jv-T0p">
+                            <connections>
+                                <segue destination="3mm-5E-48S" kind="show" id="6gt-gw-jTt"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1030.5" y="443"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JbH-lj-lUV">
+            <objects>
+                <viewController id="3mm-5E-48S" customClass="ViewController" customModule="dPostcardBIT" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Sbx-mG-dVM"/>
+                        <viewControllerLayoutGuide type="bottom" id="G6D-C0-ThE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iXb-SE-d4p">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eiffel" translatesAutoresizingMaskIntoConstraints="NO" id="jJR-F7-IUb">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="300" y="84" width="80" height="80"/>
+                                </variation>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter message" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cER-hk-2zT">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="216" width="360" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qo4-49-pGA">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="172" width="360" height="30"/>
+                                </variation>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xIn-f9-CsM">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.95517241379999995" green="0.54326508620000002" blue="0.0060614224140000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="send .. .. .."/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="285" width="360" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="sendMailBTN:" destination="3mm-5E-48S" eventType="touchUpInside" id="USg-aN-yzg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="messageLAB" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQU-td-PEz">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="84" width="228" height="21"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="jJR-F7-IUb"/>
+                                <exclude reference="cER-hk-2zT"/>
+                                <exclude reference="qo4-49-pGA"/>
+                                <exclude reference="xIn-f9-CsM"/>
+                                <exclude reference="NQU-td-PEz"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="jJR-F7-IUb"/>
+                                <include reference="cER-hk-2zT"/>
+                                <include reference="qo4-49-pGA"/>
+                                <include reference="xIn-f9-CsM"/>
+                                <include reference="NQU-td-PEz"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="enterMessageFLD" destination="cER-hk-2zT" id="3qy-PX-4Ws"/>
+                        <outlet property="enterNameFLD" destination="qo4-49-pGA" id="POa-DU-FaX"/>
+                        <outlet property="mailBTN" destination="xIn-f9-CsM" id="2Cs-KU-MKn"/>
+                        <outlet property="messageLAB" destination="NQU-td-PEz" id="4Hz-t3-fk8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9HS-vh-EnT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1786.5" y="443"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NHL-Xb-9hD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vfU-VH-hyP" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WT8-4i-Psx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="74C-ng-4Wy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rtj-u0-gCd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112.5" y="443"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="eiffel" width="400" height="265"/>
+        <image name="mail" width="3200" height="2023"/>
+    </resources>
+</document>
