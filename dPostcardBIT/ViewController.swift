@@ -42,7 +42,10 @@ class ViewController: UIViewController {
         
         mailBTN.setTitle("Am trimis acest mail", forState: UIControlState.Normal)
         
-        
+        //comment pentru github!
+        //git add . // adauga toate fisierele
+        //git commit -m "pt test commit"
+        //git push origin master
     }
 
     
