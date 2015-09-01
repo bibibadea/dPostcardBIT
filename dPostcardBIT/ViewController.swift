@@ -47,6 +47,8 @@ class ViewController: UIViewController {
         //git commit -m "pt test commit"
         //git push origin master
     }
+    
+    // mai adaug un commit: sterg linia 45 "//comment pt github"
 
     
 }
